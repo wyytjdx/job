@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+.box{
+	margin: 0 auto;
+	width: 1060px;
+	border: 1px solid blue;
+}
+.header{
+	width: 1058px;
+	margin: 0 auto;
+}
+.navlist li{
+	list-style: none;
+	float: left;
+	width: 200px;
+	height: 60px;
+	border: 1px solid blue;
+	font-family: 微软雅黑;
+	font-size: 22px;
+	text-align: center;
+	line-height: 60px;
+	display: block;
+	cursor: pointer;
+}
+.navlist li a{
+	text-decoration: none;
+	color: #000;
+}
+.navlist .user{
+	float: right;
+	text-align: left;
+}
+.containerr{
+	width: 1060px;
+	margin-top: 50px;
+}
+.function{
+	float: right;
+	font-family: 微软雅黑;
+	font-size: 16px;
+}
+button{
+	color: #fff;
+	background-color: #337ab7;
+	border-radius: 4px;
+}
+.active{
+	display: none;
+}
+.bgc{
+	background-color: #337ab7;
+}

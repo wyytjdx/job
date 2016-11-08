@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+.bigbox{
+	margin: 0 auto;
+	width: 900px;
+	border: 3px solid blue;
+	font-size: 18px;
+	font-family: 微软雅黑;
+	border-radius: 6px;
+}
+.bigbox .left{
+	width: 500px;
+	float: left;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+.bigbox .left .top{
+	margin-top: 15px;
+	height: 50px;
+	color: green;
+}
+.bigbox .right{
+	float: left;
+	margin-top: 100px;
+	margin-left: 10px;
+}
+.bigbox .right .emailbox{
+	height: 70px;
+}
+.bigbox .right .email{
+	color: red;
+	font-size: 14px;
+}
+.bigbox .right .usernamebox{
+	height: 70px;
+}
+.bigbox .right .username{
+	color: red;
+	font-size: 14px;
+}
+/*.bigbox .right .passwordbox{
+	height: 70px;
+}*/
+.bigbox .right .password{
+	color: red;
+	font-size: 14px;
+}
+.bigbox .left button a{
+	color: #fff;
+	text-decoration: none;
+}

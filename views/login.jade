@@ -1,0 +1,36 @@
+doctype html
+html(lang='en')
+    head
+        title Jade
+        link(rel="stylesheet" href="style/bootstrap.min.css")
+        link(rel="stylesheet" href="style/login.css")
+    body
+        div.bigbox
+            h2.tip 请在此登录
+            div.smallbox1
+                form.form-horizontal#myform(method="post",action="/enter")
+                    .form-group
+                        label.col-sm-2.control-label 邮箱
+                        .col-sm-10
+                            input.form-control(type='email', placeholder='邮箱',name="email",id="email1")
+                    .form-group
+                        label.col-sm-2.control-label 密码
+                        .col-sm-10
+                            input.form-control(type='password', placeholder='密码',name="password")
+                    .form-group
+                        .col-sm-offset-2.col-sm-10
+                            div.errtip
+                                p #{info}
+                            .checkbox
+                                label
+                                    input(type='checkbox')
+                                    |  记住密码
+                    .form-group
+                        .col-sm-offset-2.col-sm-10
+                            button.btn.btn-primary(type='submit',id="bt") 登   录
+                div.smallbox2
+                    button.btn.btn-Default.btn-lg(type='button',id="enroll")
+                        a(href='enroll.html') 还没有账号，点击注册吧
+    script(src="script/jquery.js")
+    script(src="script/bootstrap.min.js")
+    script(src="script/login.js")

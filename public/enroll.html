@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jade</title>
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/enroll.css">
+</head>
+<body>
+    <div class="bigbox">
+        <div class="left">
+            <div class="top">
+                <h2></h2>
+            </div>
+            <div class="bottom">
+                <form id="myenrollform">
+                    <div class="form-group">
+                        <label for="email">邮箱</label>
+                        <input id="email" type="email" placeholder="邮箱" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>用户名</label>
+                        <input id="username" type="text" placeholder="用户名" name="username" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">密码</label>
+                        <input id="password" type="text" placeholder="密码" name="password" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary">提交</button>
+                    <button type="button" class="btn btn-primary"><a href="/">返回登录</a></button>
+                </form>
+            </div>
+        </div>
+        <div class="right">
+            <div class="emailbox">
+                <h4 class="email"></h4><img src="" class="emailimg">
+            </div>
+            <div class="usernamebox">
+                <h4 class="username"></h4><img src="" class="usernameimg">
+            </div>
+            <div class="passwordbox">
+                <h4 class="password"></h4><img src="" class="passwordimg">
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <script src="./script/jquery.js"></script>
+    <script src="./script/bootstrap.min.js"></script>
+    <script src="./script/enroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bigbox{
+	width: 600px;
+	height: 441px;
+	margin: 0 auto;
+	border: 8px solid blue;
+	font-family: 微软雅黑;
+	font-size: 18px;
+}
+.smallbox1{
+	width: 400px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.smallbox2{
+	margin-left: 68px;
+}
+.tip{
+	text-align: center;
+	margin-top: 45px;
+}
+.errtip{
+	color: red;
+	font-size: 16px;
+}
+.smallbox2 a{
+	text-decoration: none;
+}
